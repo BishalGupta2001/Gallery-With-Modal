@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="rest.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <main>
+      <!-- open ui loading bolke  -->
+
+      <section class="loading">
+        <span class="spinner"></span>
+        <p>Gallery Loading</p>
+      </section>
+
+      <section class="headingContainer">
+        <h1>Beautiful Image Gallery</h1>
+      </section>
+
+      <!-- main gallery  -->
+      <section class="gallery"></section>
+
+      <!-- gallery modal -->
+      <!-- arrow key and closeing key with some text -->
+      <section class="modal">
+        <div class="modalCloseButton">&#10539;</div>
+        <div class="modalContainer">
+          <div class="previous">&#8592;</div>
+          <div class="modalImageContainer"></div><!--isme image ayega  -->
+          <div class="next">&#8594;</div>
+        </div>
+        <div class="instruction">
+          <p>Press Arrow keys to slide images and Esc to close</p>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
