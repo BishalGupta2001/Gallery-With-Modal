@@ -17,7 +17,7 @@ let images = [];
 const fetchImage = async () => {
   try {
     const response = await (
-      await fetch("https://api.slingacademy.com/v1/sample-data/photos?limit=40")
+      await fetch("https://api.slingacademy.com/v1/sample-data/photos?limit=150")
     ).json();
     images = response.photos;
 
